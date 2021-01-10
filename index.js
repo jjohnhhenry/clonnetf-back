@@ -24,7 +24,7 @@ app.use("/api/listas", require("./routes/listas"));
 app.use("/api/peliculas", require("./routes/peliculaslike"));
 
 //arrancar la app
-app.listen(port, "0.0.0.0", () => {
+app.listen(port, '0.0.0.0', () => {
     console.log("El servidor está funcionando en el puerto "+port);
 });
 
